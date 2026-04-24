@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support — Calorie Tracker</title>
+  <style>
+    :root { --green: #34C759; --dark: #0d0d0d; --card: #1a1a1a; --text: #f0f0f0; --muted: #888; --radius: 16px; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif; background: var(--dark); color: var(--text); line-height: 1.7; }
+    nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 48px; background: rgba(13,13,13,0.9); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255,255,255,0.06); }
+    .nav-logo { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; text-decoration: none; color: var(--text); }
+    .nav-logo span { width: 32px; height: 32px; background: var(--green); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 18px; }
+    .nav-back { color: var(--muted); text-decoration: none; font-size: 14px; }
+    .nav-back:hover { color: var(--text); }
+    main { max-width: 780px; margin: 0 auto; padding: 60px 24px 100px; }
+    .page-header { margin-bottom: 56px; text-align: center; }
+    .page-header h1 { font-size: 40px; font-weight: 800; letter-spacing: -1px; margin-bottom: 12px; }
+    .page-header p { color: var(--muted); font-size: 16px; max-width: 500px; margin: 0 auto; }
+    .faq-section h2 { font-size: 22px; font-weight: 700; margin-bottom: 20px; }
+    .faq-item { background: var(--card); border: 1px solid rgba(255,255,255,0.07); border-radius: var(--radius); padding: 24px 28px; margin-bottom: 12px; }
+    .faq-item h3 { font-size: 16px; font-weight: 700; margin-bottom: 8px; }
+    .faq-item p { color: #ccc; font-size: 15px; margin: 0; }
+    .contact-section { margin-top: 60px; background: var(--card); border: 1px solid rgba(52,199,89,0.2); border-radius: 24px; padding: 48px 40px; text-align: center; }
+    .contact-section h2 { font-size: 26px; font-weight: 800; margin-bottom: 12px; }
+    .contact-section p { color: var(--muted); margin-bottom: 28px; }
+    .btn-contact { display: inline-flex; align-items: center; gap: 8px; background: var(--green); color: #fff; padding: 14px 32px; border-radius: 50px; font-weight: 700; font-size: 16px; text-decoration: none; }
+    .btn-contact:hover { background: #28a745; }
+    .response-note { color: var(--muted); font-size: 13px; margin-top: 16px; }
+    footer { border-top: 1px solid rgba(255,255,255,0.06); padding: 24px 48px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+    footer p { color: var(--muted); font-size: 13px; }
+    .footer-links { display: flex; gap: 24px; }
+    .footer-links a { color: var(--muted); font-size: 13px; text-decoration: none; }
+    .footer-links a:hover { color: var(--text); }
+    @media (max-width: 600px) { nav { padding: 16px 20px; } .contact-section { padding: 32px 24px; } footer { padding: 20px; flex-direction: column; } }
+  </style>
+</head>
+<body>
+<nav>
+  <a class="nav-logo" href="index.html"><span>🥗</span> Calorie Tracker</a>
+  <a class="nav-back" href="index.html">← Back to Home</a>
+</nav>
+<main>
+  <div class="page-header">
+    <h1>Support Center</h1>
+    <p>Find answers to common questions, or reach out — we're here to help.</p>
+  </div>
+  <div class="faq-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>How do I log food?</h3>
+      <p>Tap the "+" button on the home screen, then search for a food by name or tap the barcode icon to scan a product's barcode. Select a serving size and tap "Add to log."</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do I cancel my subscription?</h3>
+      <p>Open the Settings app on your iPhone → tap your Apple ID at the top → Subscriptions → find Calorie Tracker → tap Cancel Subscription. You'll keep access until the end of your billing period.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do I restore my purchase on a new device?</h3>
+      <p>Open Calorie Tracker, go to the Paywall or Settings screen, and tap "Restore Purchases." Make sure you're signed in with the same Apple ID used for the original purchase.</p>
+    </div>
+    <div class="faq-item">
+      <h3>I forgot my password — how do I reset it?</h3>
+      <p>On the sign-in screen, tap "Forgot password?" and enter your email address. You'll receive a reset link within a few minutes. Check your spam folder if you don't see it.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can I use the app without a subscription?</h3>
+      <p>You can start a 3-day free trial with full access to all features. After the trial, a subscription is required to continue using premium features.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do I delete my account?</h3>
+      <p>Email us at <a href="mailto:arjanqema@gmail.com" style="color:#34C759;">arjanqema@gmail.com</a> with the subject "Delete my account" and we'll permanently remove all your data within 30 days.</p>
+    </div>
+    <div class="faq-item">
+      <h3>The barcode scanner isn't finding my food. What do I do?</h3>
+      <p>Not every product is in our database. If a barcode doesn't return a result, try searching by the food's name instead. You can also log a custom food by entering the nutrition facts manually.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Is my health data shared with anyone?</h3>
+      <p>No. Your nutrition and health data is private and stored securely in your account. We never sell or share your personal data. See our <a href="privacy.html" style="color:#34C759;">Privacy Policy</a> for full details.</p>
+    </div>
+    <div class="faq-item">
+      <h3>The app is crashing or behaving unexpectedly. Help!</h3>
+      <p>Try force-quitting and reopening the app. If the issue persists, check for an update in the App Store. Still having trouble? Email us with your iPhone model and iOS version.</p>
+    </div>
+  </div>
+  <div class="contact-section">
+    <h2>Still need help?</h2>
+    <p>We typically respond within 24 hours on business days.</p>
+    <a class="btn-contact" href="mailto:arjanqema@gmail.com?subject=Calorie Tracker Support">✉️ Email Support</a>
+    <p class="response-note">Response time: within 24 hours (Mon–Fri)</p>
+  </div>
+</main>
+<footer>
+  <p>© 2026 Calorie Tracker. All rights reserved.</p>
+  <div class="footer-links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="support.html">Support</a>
+    <a href="terms.html">Terms of Use</a>
+  </div>
+</footer>
+</body>
+</html>
